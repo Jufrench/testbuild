@@ -2,7 +2,7 @@
 
 Thank you for giving me the opportunity to complete this test build!
 
-I decided to use Twitter Bootstrap because it's the CSS library with which I'm the most familiar, and also because it's the most prominent CSS framework used. Although a lot of functionality can be handled with Bootstrap, I felt the need to use media queries to manage certain situations.
+I decided to use Twitter Bootstrap because it's the CSS framework with which I'm the most familiar, and also because it's the most prominent CSS framework used. Although a lot of functionality can be handled with Bootstrap, I felt the need to use media queries to manage certain situations.
 
 The examples didn't show what color, if any, to use when hovering over the dropdown menu items under the "SOLUTIONS" menu item. I felt like the most logical colors to use were either the hue of green that is used in the examples or the hue of blue. I decided on blue and I'll explain why.
 
@@ -13,11 +13,10 @@ Accessibility is the reason I chose this hue of blue.
 
 Web Content Accessibility Guildlines 2.0 ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/))
 
+<p float="left">
 <img src="./assets/images/green_contrast.png" alt="green" width="300" />
 <img src="./assets/images/blue_contrast.png" alt="blue" width="300" />
+</p>
 
-<br />  
 
-
-       
 Although the blue doesn't quite meet the 4.5:1 contrast ratio, it provides better accessibility for users with disabilities.
