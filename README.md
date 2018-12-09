@@ -3,7 +3,7 @@
 Thank you for giving me the opportunity to complete this test build!
 
 I decided to use Twitter Bootstrap because it's the CSS framework with which I'm the most familiar, and also because it's the most prominent CSS framework used. Although a lot of functionality can be handled with Bootstrap, I felt the need to use media queries to manage certain situations.
-<hr>
+
 ### Fonts Used
 
 * Montserrat sans-serif, bold
@@ -11,7 +11,7 @@ I decided to use Twitter Bootstrap because it's the CSS framework with which I'm
 * Montserrat sans-serif, regular
 * Myriad Pro sans-serif, regular
 * Georgia, regular
-<hr>
+
 ### Portrait Section
 
 For the desktop portrait, I made sure to use a transparent label. According to the PSD, the tablet and mobile labels were solid, so I followed that example. See the original PSD examples below.
@@ -21,7 +21,8 @@ For the desktop portrait, I made sure to use a transparent label. According to t
 <img src="./assets/images/tablet_portrait.png">
 <img src="./assets/images/mobile_portrait.png">
 </p>
-<hr>
+
+
 ### Accessibility
 The examples didn't show what color, if any, to use when hovering over the dropdown menu items under the "SOLUTIONS" menu item. I felt like the most logical colors to use were either the hue of green that is used in the examples or the hue of blue. I decided on blue and I'll explain why.
 
