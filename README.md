@@ -14,8 +14,8 @@ Accessibility is the reason I chose this hue of blue.
 Web Content Accessibility Guildlines 2.0 ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/))
 
 <p float="left">
-<img src="./assets/images/green_contrast.png" alt="green" width="300" />
-<img src="./assets/images/blue_contrast.png" alt="blue" width="300" />
+<img src="./assets/images/green_contrast.png" alt="green" width="400" />
+<img src="./assets/images/blue_contrast.png" alt="blue" width="400" />
 </p>
 
 
