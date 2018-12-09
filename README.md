@@ -24,7 +24,7 @@ For the desktop portrait, I made sure to use a transparent label. According to t
 
 
 ### Accessibility
-The examples didn't show what color, if any, to use when hovering over the dropdown menu items under the "SOLUTIONS" menu item. I felt like the most logical colors to use were either the hue of green that is used in the examples or the hue of blue. I decided on blue and I'll explain why.
+The examples didn't show what color, if any, to use when hovering over the dropdown menu items under the "SOLUTIONS" menu item. I felt like the most logical colors to use were either the hue of green that is used in the examples or the hue of blue. I decided on blue and I'll explain why in the "Accessibility" section following this section.
 
 ![Dropdown Menu](./assets/images/dropdown_image.png)
 
@@ -41,4 +41,4 @@ Web Content Accessibility Guildlines 2.0 ([WCAG](https://www.w3.org/WAI/standard
 </p>
 
 
-Although the blue doesn't quite meet the 4.5:1 contrast ratio, it provides better accessibility for users with disabilities. Notice the text in the
+Although the blue doesn't quite meet the 4.5:1 contrast ratio, it provides better accessibility for users with disabilities. Notice the text in the bubble under the circle in the middle of the image.
