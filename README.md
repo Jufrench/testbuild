@@ -24,7 +24,7 @@ For the desktop portrait, I made sure to use a transparent label. According to t
 
 
 ### Accessibility
-The examples didn't show what color, if any, to use when hovering over the dropdown menu items under the "SOLUTIONS" menu item. I felt like the most logical colors to use were either the hue of green that is used in the examples or the hue of blue. I decided on blue and I'll explain why in the "Accessibility" section following this section.
+The examples didn't show what color, if any, to use when hovering over the dropdown menu items under the "SOLUTIONS" menu item. I felt like the most logical colors to use were either the hue of green that is used in the examples or the hue of blue. I decided on blue and I'll explain why using the text and pictures below.
 
 ![Dropdown Menu](./assets/images/dropdown_image.png)
 
