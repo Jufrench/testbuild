@@ -142,6 +142,10 @@ footer {
       margin-top: 15px;
    }
 
+   .jumbotron img {
+      width: 100%;
+   }
+
    #aside {
       background-color: #f1f1f1;
       margin-top: 30px;
@@ -193,6 +197,10 @@ footer {
    /* This is the ul nav link list */
    .navbar-nav {
       justify-content: space-between;
+      width: 100%;
+   }
+
+   .jumbotron img {
       width: 100%;
    }
 
@@ -252,6 +260,10 @@ footer {
 /* Laptop & Desktop Sizes */
 @media screen and (min-width: 1024px){
 
+   .navbar-brand {
+      margin-bottom: 10px;
+   }
+
    .collapse {
       width: 100%;
       margin-right: -30px !important;
@@ -271,6 +283,10 @@ footer {
 
    ul.navbar-nav li.dropdown:hover .dropdown-menu {
       display: block;
+   }
+
+   .jumbotron img {
+      width: 100%;
    }
 
    .portrait:first-child p {
