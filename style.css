@@ -1,0 +1,307 @@
+body {
+   border-top: solid #1b81be 4px;
+}
+
+/* =========== */
+/* NAVBAR */
+/* =========== */
+.navbar-light .navbar-toggler {
+   border: none;
+}
+
+.nav-item {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+}
+
+.dropdown-menu {
+   margin-top: 19px;
+   border-radius: 0;
+   background-color: rgba(52, 58, 64, 0.7);
+}
+
+.nav-item .nav-link:hover .dropdown-menu {
+   display: block;
+}
+
+.dropdown-menu a:hover {
+   background-color: #1b81be;
+}
+
+/* =========== */
+/* BODY */
+/* =========== */
+main h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 48;
+}
+
+main h3 {
+   font-family: 'Myriad Pro', sans-serif;
+   font-weight: regular;
+   color: #1b81be;
+}
+
+main p {
+   font-family: 'Georgia';
+   font-weight: regular;
+}
+
+main a {
+   text-decoration: underline;
+   color: #855f9f;
+}
+
+aside li {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: medium;
+   color: #1b81be;
+}
+
+/* =========== */
+/* PORTRAITS */
+/* =========== */
+.portrait {
+   margin: 10px;
+   width: 360px;
+   height: 260px;
+   background-size: cover;
+   position: relative;
+}
+
+.portrait p {
+   position: absolute;
+   padding: 17px;
+   margin-bottom: 0px;
+   bottom: 0;
+   width: 100%;
+   height: 22%;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+}
+
+.portrait:first-child p {
+   background-color: rgba(240, 186, 74, 0.8);
+}
+
+.portrait:nth-child(2) p {
+   background-color: rgba(214, 85, 79, 0.8);
+}
+
+.portrait:last-child p {
+   background-color: rgba(134, 98, 155, 0.8);
+}
+
+.portrait:first-child {
+   background-image: url(./assets/images/person-1.png);
+}
+
+.portrait:nth-child(2) {
+   background-image: url(./assets/images/person-2.png);
+}
+
+.portrait:last-child {
+   background-image: url(./assets/images/person-3.png);
+}
+
+/* =========== */
+/* FOOTER */
+/* =========== */
+footer {
+   background-color: #343531;
+   margin-top: 75px;
+}
+
+#contact-info {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: regular;
+}
+
+#contact-info p:last-child {
+   margin-top: -15px;
+}
+
+#donate-button {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   background-color: #7eba55;
+}
+
+.sub-footer {
+   font-family: 'Georgia';
+   font-style: italic;
+   background-color: #222222;
+}
+
+/* Mobile Phone Sizes */
+@media screen and (max-width: 768px){
+   .navbar .navbar-toggler {
+      float: right;
+      margin-top: 15px;
+   }
+
+   #aside {
+      background-color: #f1f1f1;
+      margin-top: 30px;
+      margin-bottom: -25px;
+   }
+
+   #aside li {
+      background-color: #f1f1f1;
+   }
+
+   .portrait:first-child p {
+      background-color: rgb(240, 186, 74);
+   }
+
+   .portrait:nth-child(2) p {
+      background-color: rgb(214, 85, 79);
+   }
+
+   .portrait:last-child p {
+      background-color: rgb(134, 98, 155);
+   }
+
+   footer img {
+      margin-bottom: -20px;
+      width: 200px;
+   }
+
+   #contact-info p:last-child {
+      margin-left: 15px;
+   }
+
+   #donate-button {
+      width: 300px;
+      height: 50px;
+      margin-top: -30px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+   }
+
+   .col-sm-12 {
+      margin: 0;
+      text-align: center;
+   }
+}
+
+/* Tablet Sizes */
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+   /* This is the ul nav link list */
+   .navbar-nav {
+      justify-content: space-between;
+      width: 100%;
+   }
+
+   .portrait {
+      width: 220px;
+      height: 175px;
+   }
+
+   .portrait p {
+      font-size: 12px;
+      padding: 10px;
+   }
+
+   .portrait:first-child p {
+      background-color: rgb(240, 186, 74);
+   }
+
+   .portrait:nth-child(2) p {
+      background-color: rgb(214, 85, 79);
+   }
+
+   .portrait:last-child p {
+      background-color: rgb(134, 98, 155);
+   }
+
+   #logo-and-contact-div {
+      text-align: center;
+   }
+
+   .logo-and-contact {
+      display: inline-block;
+      vertical-align: middle;
+   }
+
+   #logo-and-contact-div:first-child {
+      margin-right: 20px;
+   }
+
+   .logo-and-contact:last-child p:last-child{
+      margin-top: -15px;
+   }
+
+   #donate-button-div {
+      text-align: center;
+      margin-bottom: 10px;
+   }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+   .portrait {
+      width: 300px;
+      height: 275px;
+   }
+}
+
+/* Laptop & Desktop Sizes */
+@media screen and (min-width: 1024px){
+
+   .collapse {
+      width: 100%;
+      margin-right: -30px !important;
+   }
+
+   .navbar-nav {
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .nav-item .nav-link:hover {
+      color: #7eba55 !important;
+      border-bottom: solid #7eba55 5px !important;
+      padding-bottom: 23px;
+      margin-bottom: -25px;
+   }
+
+   ul.navbar-nav li.dropdown:hover .dropdown-menu {
+      display: block;
+   }
+
+   .portrait:first-child p {
+      background-color: rgba(240, 186, 74, 0.8);
+   }
+
+   .portrait:nth-child(2) p {
+      background-color: rgba(214, 85, 79, 0.8);
+   }
+
+   .portrait:last-child p {
+      background-color: rgba(134, 98, 155, 0.8);
+   }
+
+   .logo-and-contact {
+      vertical-align: middle;
+   }
+
+   .logo-and-contact:first-child {
+      display: inline-block;
+   }
+
+   .logo-and-contact:last-child {
+      display: inline-block;
+   }
+
+   .logo-and-contact:last-child p:last-child{
+      margin-top: -15px;
+   }
+
+   footer button {
+      margin-top: 22px;
+   }
+}
